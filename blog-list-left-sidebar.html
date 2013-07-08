@@ -9,7 +9,7 @@
 Remove this if you use the .htaccess -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-<title>Archtek. | The modern template for your business.</title>
+<title>Blog List (Left Sidebar) | Archtek.</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
 
 <script type="text/javascript">
@@ -74,7 +74,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
     <div id="menu-wrapper">
         <ul id="root-menu" class="sf-menu">
             <li>
-                <a href="index.php" class="active">Home</a>
+                <a href="index.php" >Home</a>
                 <ul>
                     <li>
                         <a href="index.php">Home Style 1</a>
@@ -107,7 +107,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
                 </ul>
             </li>
             <li>
-                <a href="blog-list.php" >Blog</a>
+                <a href="blog-list.php" class="active">Blog</a>
                 <ul>
                     <li>
                         <a href="blog-list.php">List Page</a>
@@ -215,316 +215,240 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
     </div>
     
 </div> <!-- End id="header-container" -->
-        <!-- Home Slider Container -->
-        <div id="home-slider-container">
-
-            <div id="home-slider">
-                <div class="home-slider-item">
-                    <img src="images/demo/slider/slide1.jpg" alt="Slide 1" />
-                    <div class="slider-caption">
-                        <h2>We create &amp; deliver great design.</h2>
-                        <p>
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
-                        </p>
-                    </div>
-                </div>
-                <div class="home-slider-item">
-                    <img src="images/demo/slider/slide3.jpg" alt="Slide 2" />
-                    <div class="slider-caption">
-                        <h2>Great development.</h2>
-                        <p>
-                            Natus error sit voluptatem accusantium doloremque.
-                        </p>
-                    </div>
-                </div>
-                <div class="home-slider-item">
-                    <img src="images/demo/slider/slide3-new2.jpg" alt="Slide 3" />
-                </div>
+        <!-- Header Image -->
+        <div id="header-image-container">
+            <div id="header-image">
+                <img src="images/demo/blog/blog-header.jpg" alt="" class="stretch-image" />
             </div>
-            <div id="slider-controller" class="content-width">
-                <a href="#" id="slider-prev"><i class="icon-angle-left"></i></a>
-                <a href="#" id="slider-next"><i class="icon-angle-right"></i></a>
-            </div>
-            <div id="header-image-shadow" class="content-width"></div>
-
         </div>
-        <!-- End id="home-slider-container" -->
 
         <div id="content-container" class="content-width">
 
+            <!-- Breadcrumbs -->
+            <div class="row">
+                <div id="breadcrumbs-wrapper" class="large-12 columns for-nested">
+                    <span>You are here:</span>
+                    <ul class="breadcrumbs">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="current">
+                            <a href="#">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
             <!-- Page Intro -->
-            <div id="intro" class="row">
-                <div class="large-12 columns">
-                    <h1>Welcome to <strong>Archtek.</strong> The modern template.</h1>
-                    <div id="intro-line">
-                        <hr class="stick" />
-                        <hr />
-                    </div>
-                    <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae abillo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.
-                    </p>
+            <div id="intro" class="not-homepage row">
+                <div class="large-9 large-centered columns">
+                    <h1>Our <strong>News</strong> &amp; Updates</h1>
                 </div>
             </div>
 
-            <!-- Features -->
-            <div class="row">
-                <div class="large-6 columns for-nested">
-                    <div class="row">
-                        <div class="large-6 columns height-510 no-padding">
-                            <img src="images/demo/feature1.jpg" alt="" class="stretch-image" />
-                        </div>
-                        <div class="large-6 columns height-510 bottom-line">
-                            <h2 class="smaller">All New Approach.</h2>
-                            <h3 class="light uppercase larger">Today's Most Modern Business.</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            </p>
-                            <a href="#" class="bottom-right angle flat button">Learn more<span class="angle"><i class="icon-angle-right"></i></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="large-6 columns for-nested">
-                    <div class="row">
-                        <div class="large-6 columns height-255 no-padding">
-                            <img src="images/demo/feature2.jpg" alt="" class="stretch-image" />
-                        </div>
-                        <div class="large-6 columns height-255 bottom-line">
-                            <h2 class="smaller">Fully Responsive.</h2>
-                            <p>
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            </p>
-                            <a href="#" class="bottom-right angle flat button">Learn more<span class="angle"><i class="icon-angle-right"></i></span></a>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="large-6 columns height-255 no-padding">
-                            <img src="images/demo/feature3.jpg" alt="" class="stretch-image" />
-                        </div>
-                        <div class="large-6 columns height-255 bottom-line">
-                            <h2 class="smaller">Project Showcase.</h2>
-                            <p>
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                            </p>
-                            <a href="#" class="bottom-right angle flat button">Learn more<span class="angle"><i class="icon-angle-right"></i></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Portfolio -->
-            <div class="row top-margin">
-                <div class="large-12 columns no-padding">
-
-                    <div class="portfolio-wrapper">
-
-                        <div class="fixed-box portfolio-item bottom-line">
-                            <h2 class="smaller">Our Recent Projects.</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Nunc feugiat mi a tellus at consequat. Proinquam. Etiam ultrices.
-                            </p>
-                            <a href="portfolio-list.php" class="bottom-right angle flat button">View all projects<span class="angle"><i class="icon-angle-right"></i></span></a>
-                        </div>
-    
-                        <div class="kitchen mockup portfolio-item">
-                            <div class="portfolio-item-hover">
-                                <h3><a href="portfolio-single.php">Modern Kitchen Development</a></h3>
-                                <ul>
-                                    <li>
-                                        <a href="#">Kitchen</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Mock-up</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <img src="images/demo/portfolio/project-thumb1.jpg" alt="" class="stretch-image" />
-                        </div>
-                        <div class="furniture interior portfolio-item">
-                            <div class="portfolio-item-hover">
-                                <h3><a href="portfolio-single.php">Creamy Living Room</a></h3>
-                                <ul>
-                                    <li>
-                                        <a href="#">Furniture</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Interior</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <img src="images/demo/portfolio/project-thumb2.jpg" alt="" class="stretch-image" />
-                        </div>
-    
-                        <div class="room interior portfolio-item">
-                            <div class="portfolio-item-hover">
-                                <h3><a href="portfolio-single.php">New Sense Bathroom</a></h3>
-                                <ul>
-                                    <li>
-                                        <a href="#">Interior</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Room</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <img src="images/demo/portfolio/project-thumb3.jpg" alt="" class="stretch-image" />
-                        </div>
-                        <div class="interior mockup room portfolio-item">
-                            <div class="portfolio-item-hover">
-                                <h3><a href="portfolio-single.php">Open-Style &amp; Modern Living Room</a></h3>
-                                <ul>
-                                    <li>
-                                        <a href="#">Interior</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Mock-up</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Room</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <img src="images/demo/portfolio/project-thumb4.jpg" alt="" class="stretch-image" />
-                        </div>
-                        <div class="interior mockup furniture portfolio-item">
-                            <div class="portfolio-item-hover">
-                                <h3><a href="portfolio-single.php">Comfortable Brown Sofa</a></h3>
-                                <ul>
-                                    <li>
-                                        <a href="#">Furniture</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Interior</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Mock-up</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <img src="images/demo/portfolio/project-thumb5.jpg" alt="" class="stretch-image" />
-                        </div>
-                        <div class="kitchen interior portfolio-item">
-                            <div class="portfolio-item-hover">
-                                <h3><a href="portfolio-single.php">Clean Wooden Kitchen</a></h3>
-                                <ul>
-                                    <li>
-                                        <a href="#">Interior</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Kitchen</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <img src="images/demo/portfolio/project-thumb6.jpg" alt="" class="stretch-image" />
-                        </div>
-                        
-                    </div>
-                        
-                </div>
-            </div>
-
-            <!-- Testimonial Slider -->
-            <div class="row top-margin no-bg">
-                <div class="large-12 columns no-padding">
-                    
-                    <div class="testimonial-wrapper">
-                        <div class="testimonial-inner">
-                            <div class="testimonial-list">
-                                <div>
-                                    <blockquote>
-                                        <p>
-                                            Nunc feugiat mi a tellus at consequat. Proinquam. Etiam ultrices. Suspendisse in justo sit etiam magna luctus suscipit.
-                                        </p>
-                                        <cite> Richard Jones, Arch Era Magazine </cite>
-                                    </blockquote>
-                                    <img src="images/demo/test1.jpg" alt="" />
-                                </div>
-                                <div>
-                                    <blockquote>
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit!
-                                        </p>
-                                        <cite> Balmer Family, New York </cite>
-                                    </blockquote>
-                                    <img src="images/demo/test3.jpg" alt="" />
-                                </div>
-                                <div>
-                                    <blockquote>
-                                        <p class="smaller">
-                                            Curabitur sodales ligula in libero. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor.
-                                        </p>
-                                        <cite> Steve Woodman, Agency </cite>
-                                    </blockquote>
-                                    <img src="images/demo/test2.jpg" alt="" />
-                                </div>
-                            </div>
-                            <div class="testimonial-angle"></div>
-                            <div class="testimonial-corner"></div>
-                            <div class="testimonial-corner-mirror"></div>
-                        </div>
-                        <div class="testimonial-bullets"></div>
-                    </div>
-                    
-                </div>
-            </div>
-
-            <!-- Blog -->
-            <div class="row top-margin">
-                <div class="large-12 columns bottom-line">
-                    <h3 class="no-margin">News Update.</h3>
-                    <a href="blog-list.php" class="bottom-right angle flat button">View all news<span class="angle"><i class="icon-angle-right"></i></span></a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="blog-item no-border large-6 columns for-nested">
-                    <div class="right-border row">
+            <!-- Blog List -->
+            <div class="grey-bg row">
+                <div class="large-9 columns for-nested push-3">
+                    <div class="blog-item row">
                         <div class="large-12 columns height-255">
                             <div class="blog-meta">
                                 <span class="date">May 30, 2013</span>
+                                <ul class="author-comments">
+                                    <li>
+                                        <i class="icon-user"></i><a href="#">Paul Chambers</a>
+                                    </li>
+                                    <li>
+                                        <i class="icon-comments-alt"></i><a href="#">5 Comments</a>
+                                    </li>
+                                </ul>
                             </div>
                             <hr />
-                            <h4 class="blog-title"><a href="blog-single.php">Sed ut perspicia unde omnis iste natus labore et dolore mag</a></h4>
+                            <h2 class="blog-title"><a href="blog-single.php">Sed ut perspicia unde omnis iste natus labore et dolore mag</a></h2>
                             <p class="excerpt">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam consectetur adipisicing elit, sed do eiusmod...
                             </p>
+                            <a class="readmore-link" href="blog-single.php">Read More</a>
+                        </div>
+                        <div class="large-12 columns no-padding">
+                            <img src="images/demo/blog/blog-item2.jpg" alt="" />
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="large-12 columns no-padding height-255">
-                            <img src="images/demo/blog-sec1.jpg" alt="" class="stretch-image" />
-                        </div>
-                    </div>
-                </div>
-                <div class="sub-blog-item large-3 columns for-nested">
-                    <div class="right-border row">
+                    <div class="blog-item row">
                         <div class="large-12 columns height-255">
                             <div class="blog-meta">
                                 <span class="date">May 15, 2013</span>
+                                <ul class="author-comments">
+                                    <li>
+                                        <i class="icon-user"></i><a href="#">Alice Palmer</a>
+                                    </li>
+                                    <li>
+                                        <i class="icon-comments-alt"></i><a href="#">2 Comments</a>
+                                    </li>
+                                </ul>
                             </div>
                             <hr />
-                            <h4 class="sub-blog-title"><a href="blog-single.php">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></h4>
+                            <h2 class="blog-title"><a href="blog-single.php">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</a></h2>
+                            <p class="excerpt">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
+                            </p>
+                            <a class="readmore-link" href="blog-single.php">Read More</a>
+                        </div>
+                        <div class="large-12 columns no-padding">
+                            <img src="images/demo/blog/blog-item1.jpg" alt="" />
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="large-12 columns no-padding height-255">
-                            <img src="images/demo/blog-sec2.jpg" alt="" class="stretch-image" />
-                        </div>
-                    </div>
-                </div>
-                <div class="sub-blog-item large-3 columns for-nested">
-                    <div class="row">
+                    <div class="blog-item row">
                         <div class="large-12 columns height-255">
                             <div class="blog-meta">
-                                <span class="date">May 9, 2013</span>
+                                <span class="date">May 5, 2013</span>
+                                <ul class="author-comments">
+                                    <li>
+                                        <i class="icon-user"></i><a href="#">Zedric Johnson</a>
+                                    </li>
+                                    <li>
+                                        <i class="icon-comments-alt"></i><a href="#">0 Comment</a>
+                                    </li>
+                                </ul>
                             </div>
                             <hr />
-                            <h4 class="sub-blog-title"><a href="blog-single.php">Ut enim ad minim veniam consectetur adipisicing elit, sed do eiusmod</a></h4>
+                            <h2 class="blog-title"><a href="blog-single.php">Ut enim ad minim veniam consectetur adipisicing elit</a></h2>
+                            <p class="excerpt">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam consectetur adipisicing elit, sed do eiusmod...
+                            </p>
+                            <a class="readmore-link" href="blog-single.php">Read More</a>
+                        </div>
+                        <div class="large-12 columns no-padding">
+                            <img src="images/demo/blog/blog-item3.jpg" alt="" />
                         </div>
                     </div>
+
                     <div class="row">
-                        <div class="large-12 columns no-padding height-255">
-                            <img src="images/demo/blog-sec3.jpg" alt="" class="stretch-image" />
+                        <div id="blog-pagination" class="large-12 columns pagination-centered">
+                            <ul class="pagination">
+                                <li class="unavailable">
+                                    <a href="javascript:;"><i class="icon-angle-left"></i></a>
+                                </li>
+                                <li class="current">
+                                    <a href="javascript:;">1</a>
+                                </li>
+                                <li>
+                                    <a href="#">2</a>
+                                </li>
+                                <li>
+                                    <a href="#">3</a>
+                                </li>
+                                <li class="unavailable">
+                                    <a href="#">&hellip;</a>
+                                </li>
+                                <li>
+                                    <a href="#">8</a>
+                                </li>
+                                <li>
+                                    <a href="#">9</a>
+                                </li>
+                                <li class="arrow">
+                                    <a href="#"><i class="icon-angle-right"></i></a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
+
+                </div>
+                <div id="sidebar-wrapper" class="large-3 columns for-nested pull-9">
+                    
+                    <div class="widget-item row">
+                        <div class="large-12 columns">
+                            <div class="search-widget">
+                                <h4>Search</h4>
+                                <form method="get">
+                                    <input type="text" placeholder="Type and hit enter ...">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="widget-item row">
+                        <div class="large-12 columns">
+                            <div class="posts-widget">
+                                <h4>Recent Posts</h4>
+                                <ul>
+                                    <li>
+                                        <div class="post-thumbnail">
+                                            <a href="blog-single.php"><img src="images/demo/portfolio/project-thumb7.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="post-title">
+                                            <a href="blog-single.php">Sed ut perspicia unde omnis iste natus</a>
+                                            <span class="date">May 30, 2013</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="post-thumbnail">
+                                            <a href="blog-single.php"><img src="images/demo/portfolio/project-thumb4.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="post-title">
+                                            <a href="blog-single.php">Lorem ipsum dolor ..</a>
+                                            <span class="date">May 15, 2013</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="post-thumbnail">
+                                            <a href="blog-single.php"><img src="images/demo/portfolio/project-thumb1.jpg" alt="" /></a>
+                                        </div>
+                                        <div class="post-title">
+                                            <a href="blog-single.php">Ut enim ad minim veniam consec ..</a>
+                                            <span class="date">May 9, 2013</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="widget-item row">
+                        <div class="large-12 columns">
+                            <div class="category-widget">
+                                <h4>Categories</h4>
+                                <ul>
+                                    <li>
+                                        <a href="#">Announcements</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">General News</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Promotions &amp; Offers</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Customer Relationship</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Upcoming Events</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="widget-item row">
+                        <div class="large-12 columns">
+                            <div class="flickr-widget">
+                                <h4>Flickr Gallery</h4>
+                                <script type="text/javascript" src="../../../../www.flickr.com/badge_code_v2.gne@show_name=1&count=6&display=random&size=s&layout=x&source=user&user=52617155_40N08"></script>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="widget-item row">
+                        <div class="large-12 columns">
+                            <div class="custom-text-widget">
+                                <h4>Custom Text</h4>
+                                <p>
+                                    Ut enim ad minim veniam consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam consectetur adipisicing elit, sed do eiusmod
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
 
@@ -554,7 +478,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
                         Mobile: +123.999.899
                     </li>
                     <li>
-                        Email: <a href="#"><span class="__cf_email__" data-cfemail="c4a7abaab0a5a7b084a5b6a7acb0a1afeaa7aba9">[email&nbsp;protected]</span><script type="text/javascript">
+                        Email: <a href="#"><span class="__cf_email__" data-cfemail="3d5e5253495c5e497d5c4f5e55495856135e5250">[email&nbsp;protected]</span><script type="text/javascript">
 /* <![CDATA[ */
 (function(){try{var s,a,i,j,r,c,l,b=document.getElementsByTagName("script");l=b[b.length-1].previousSibling;a=l.getAttribute('data-cfemail');if(a){s='';r=parseInt(a.substr(0,2),16);for(j=2;a.length-j;j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}s=document.createTextNode(s);l.parentNode.replaceChild(s,l);}}catch(e){}})();
 /* ]]> */
